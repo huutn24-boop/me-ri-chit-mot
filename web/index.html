@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#09131a">
+    <meta name="description" content="Cây thông Giáng sinh ASCII động với tuyết rơi và nhạc chuông.">
+    <title>Christmas Tree — Holiday lights</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="page">
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="Christmas Tree trang chủ">
+          <span class="brand-mark" aria-hidden="true">✳</span>
+          <span>WINTER<span class="brand-muted"> / STUDIO</span></span>
+        </a>
+        <span class="season"><span class="live-dot"></span> HOLIDAY MODE</span>
+      </header>
+
+      <section class="hero" aria-labelledby="title">
+        <div class="intro">
+          <p class="eyebrow">A LITTLE WINTER MAGIC</p>
+          <h1 id="title">Let it <span>glow.</span></h1>
+          <p class="description">Một góc Giáng sinh nhỏ với cây thông ASCII, tuyết rơi và giai điệu chuông vui tai.</p>
+          <div class="controls" aria-label="Điều khiển cây thông">
+            <button id="play-button" class="button button-primary" type="button">
+              <span id="play-icon" aria-hidden="true">Ⅱ</span>
+              <span id="play-label">Tạm dừng</span>
+            </button>
+            <button id="sound-button" class="button button-secondary" type="button" aria-pressed="false">
+              <span aria-hidden="true">♫</span>
+              <span id="sound-label">Bật nhạc</span>
+            </button>
+            <button id="restart-button" class="icon-button" type="button" aria-label="Chạy lại hoạt ảnh" title="Chạy lại">↺</button>
+          </div>
+          <label class="theme-picker" for="theme-select">
+            <span>GIAI ĐIỆU</span>
+            <select id="theme-select">
+              <option value="jingle">Jingle Bells</option>
+              <option value="chimes">Chuông mùa đông</option>
+            </select>
+          </label>
+          <p class="hint">Mẹo: chạm vào cây để bật hoặc tắt tuyết.</p>
+        </div>
+
+        <div class="tree-card">
+          <div class="card-top">
+            <span><span class="live-dot"></span> LIVE CANVAS</span>
+            <span id="clock">00:00</span>
+          </div>
+          <canvas id="tree-canvas" aria-label="Cây thông Giáng sinh ASCII đang chuyển động"></canvas>
+          <div class="card-bottom">
+            <span>✦ &nbsp; MERRY CHRISTMAS</span>
+            <span id="snow-status">SNOW ON</span>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <span>MADE FOR A COZIER WINTER</span>
+        <span>✳ &nbsp; TAKE A BREATH, ENJOY THE GLOW</span>
+      </footer>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+imageio-ffmpeg
+numpy
+opencv-python
+pygame-ce
