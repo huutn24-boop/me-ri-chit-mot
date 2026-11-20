@@ -65,6 +65,8 @@ h1 span { color: var(--green); font-style: italic; }
 .card-bottom { bottom: 0; color: #b9c9ad; }
 canvas { display: block; width: 100%; aspect-ratio: 1 / 1; }
 footer { min-height: 68px; justify-content: space-between; border-top: 1px solid var(--line); color: #778581; font-size: 9px; }
+.source-link { color: #a4b39d; text-decoration: none; }
+.source-link:hover { color: var(--green); }
 
 @media (max-width: 760px) {
   .page { width: min(540px, calc(100% - 36px)); }
