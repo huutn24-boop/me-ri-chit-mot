@@ -33,9 +33,9 @@ The browser version in `web/` adapts the Christmas tree experience for Canvas an
 python -m http.server 8000
 ```
 
-Open [http://localhost:8000/web/](http://localhost:8000/web/) in a browser. Use the controls to pause the animation, toggle synthesized music, choose a tune, or tap the tree to toggle snow.
+Open [http://localhost:8000/web/](http://localhost:8000/web/) in a browser. The page shows only the animation; tap or click anywhere to start or stop the music (browser audio requires a user gesture). The mobile-only page is at [http://localhost:8000/web/mobile/](http://localhost:8000/web/mobile/).
 
-The website is also configured to deploy to GitHub Pages on every update to `web/`. Once the workflow completes, open [https://huutn24-boop.github.io/me-ri-chit-mot/](https://huutn24-boop.github.io/me-ri-chit-mot/).
+The website is also configured to deploy to GitHub Pages on every update to `web/`. The desktop page is [here](https://huutn24-boop.github.io/me-ri-chit-mot/) and the mobile page is [here](https://huutn24-boop.github.io/me-ri-chit-mot/mobile/).
 
 ## Usage
 
