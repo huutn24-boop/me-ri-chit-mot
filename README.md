@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 ## Local Web Version
 
-The browser version is a static, dependency-free page in `web/`. From the project folder run:
+The browser version in `web/` adapts the Christmas tree experience for Canvas and Web Audio. The Pygame desktop script cannot run directly inside a browser; the web version needs no Python packages. From the project folder run:
 
 ```powershell
 python -m http.server 8000
