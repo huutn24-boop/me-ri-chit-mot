@@ -35,6 +35,8 @@ python -m http.server 8000
 
 Open [http://localhost:8000/web/](http://localhost:8000/web/) in a browser. Use the controls to pause the animation, toggle synthesized music, choose a tune, or tap the tree to toggle snow.
 
+The website is also configured to deploy to GitHub Pages on every update to `web/`. Once the workflow completes, open [https://huutn24-boop.github.io/me-ri-chit-mot/](https://huutn24-boop.github.io/me-ri-chit-mot/).
+
 ## Usage
 
 ### 1. Run Interactive ASCII Window (with audio)
